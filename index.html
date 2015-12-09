@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Page</title>
+<style>
+    .header{
+        text-align: center;
+        Width:100%;
+        
+    }
+</style>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="eye.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function($) {
+                                $(document).eye({
+                                    userKey: "1",
+                                    trackerId: "test",
+                                    processingScript: "classes/index.php"
+                                });
+                                //eye.watch();
+			});
+		</script>
+</head>
+<body>
+<div class="header"> 
+    Hello ! It works, Nothing to see here ,Move Along !
+</div>
+</body>
+</html>
